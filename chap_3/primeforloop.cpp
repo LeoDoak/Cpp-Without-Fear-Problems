@@ -7,7 +7,7 @@ int main(){
 	cout << "Enter in a number to check it it's prime: "; 
 	cin >> n;
         
-	int sqrt_n = sqrt( (double) n); //optomization -> getting sqrt once 
+	int sqrt_n = sqrt(static_cast<double>(n)); //optomization -> getting sqrt once 
 
 	int is_prime = true;  //setting bool flag
 
