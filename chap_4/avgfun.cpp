@@ -5,8 +5,8 @@ double avg(double a, double b); // function declaration / prototype
 
 int main(){
 	double a, b; 
-	cout << "Input in first number: "; 
-	cin >> a; 
+cout << "Input in first number: "; 
+cin >> a; 
 	cout << "Input in second number: "; 
 	cin >> b; 
 	cout << "The average of "<< a << " and " << b << " is " << avg(a, b); // function call 
