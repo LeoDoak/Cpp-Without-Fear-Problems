@@ -6,10 +6,10 @@ int prime(int num);
 
 int main(){
 	int i; 
-	while(1){ // infinte loop
-		cout << "Enter a number (0 to exit)"; 
-		cout << "and press enter: "; 
-		cin >> i; 
+	cout << "Enter a number (0 to exit)"; 
+	cout << "and press enter: "; 
+	cin >> i;
+	while(1){
 		if(i == 0){
 			break; 
 		}
@@ -20,6 +20,7 @@ int main(){
 			cout << i << " is not prime" << endl; 
 		}
 	}
+	
 	return 0; 
 }
 
