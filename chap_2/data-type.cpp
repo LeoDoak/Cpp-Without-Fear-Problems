@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 	int n; 
 	//n = 3.7; // will cause a warning as the .7 will be lost
-	n = static_cast<int>(3.7);
+	n = static_cast<int>(3.7); // no warning 
 	cout << n; 
 
 
