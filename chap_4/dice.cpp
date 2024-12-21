@@ -13,7 +13,7 @@ int main(){
 
 	cout << "Enter number of dice to roll: ";
 	cin >> n; 
-	for (i = 0; i <= n; i++){
+	for (i = 0; i <= n; i++){      
 		r = rand_0toN1(6) + 1; 
 		cout << r << " "; 
 	}
@@ -21,7 +21,5 @@ int main(){
 }
 
 int rand_0toN1(int n){
-	int rand_int = rand();
-        cout << "Random int: " << rand_int << endl; 	
-	return rand_int % n; 
+	return rand() % n; 
 }
