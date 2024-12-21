@@ -14,7 +14,7 @@ int main() {
 		array1[i] = num;
 	}
 	int sum = 0; 
-	for(int i = 0; i < 7; i++){
+	for(int i = 0; i < 7; i++){  
 		cout << array1[i] << " ";
 		sum += array1[i];
 	}

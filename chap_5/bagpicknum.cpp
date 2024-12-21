@@ -4,7 +4,7 @@
 #include <math.h>
 using namespace std;
 
-// Excercise 5.3.3 pg 126 
+// Excercise 5.4.1 pg 130 
 
 int rand_0toN1(int n); 
 void bag_pick();   
