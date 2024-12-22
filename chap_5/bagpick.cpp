@@ -9,8 +9,8 @@ using namespace std;
 int rand_0toN1(int n); 
 void bag_pick();   
 
-char *color[4] = {"red", "blue", "orange", "green"}; 
-char *item[2] = {"ball", "cube"}; 
+const char *color[4] = {"red", "blue", "orange", "green"}; 
+const char *item[2] = {"ball", "cube"}; 
 
 int main(){
 	int n, i; 
